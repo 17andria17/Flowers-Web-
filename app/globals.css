@@ -2,32 +2,9 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
-}
-
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
-}
-
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
-  }
+ body{
+  background-image: url(https://scontent.xx.fbcdn.net/v/t1.15752-9/434192960_4000338430193336_2765540851093616023_n.jpg?stp=dst-jpg_s350x350&_nc_cat=104&ccb=1-7&_nc_sid=5f2048&_nc_eui2=AeF06T5udV5xthkz_lgrna5VaSJZNAOccHhpIlk0A5xweMV_lRaR9CBn5aFnJyRuMs2BkPbivJdJ2nnU1wFxjTUi&_nc_ohc=mW7Wamn2ciQAX9JomYi&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.xx&oh=03_AdRYeGFO0LPoXbUtc25YMsaJekt_QrqccoFCgmq6J-imnw&oe=662F2C2C);
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
 }
